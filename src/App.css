@@ -23,15 +23,95 @@
   font-size: calc(10px + 2vmin);
   color: white;
 }
-
+/* .nav-links a:hover {
+  box-shadow: 5px 10px 20px 1px rgba(0, 0, 0, 0.25);
+  transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+} */
 .App-link {
   color: #61dafb;
+}
+
+.sidebar {
+    float: left;
+    width: 20%;
+    
+}
+.form1{
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  align-items: center;
+  border-radius: 20px;
+}
+
+.nav-item.a:hover{
+  background-color: grey;
+ 
+}
+.navicon{ display: flex; /* Use a flexbox container to arrange the icons in a row */
+  align-items: center;
+padding: 0 50px 0 50px;}
+.a{
+  padding-left: 10px;
+}
+a:hover{
+  background-color:gray;
+  border-radius: 5px;
+  }
+.main {
+  width: 80%;
+}
+  .main1{
+    width: 500px; /* Set the width of the box */
+    height: 300px; /* Set the height of the box */
+    padding: 20px; /* Add padding inside the box */
+    border-color: #909194;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    position: relative;
+  }
+  
+.nav-item1{
+  float: left;
+}
+.btn:hover{
+  background-color: gray;
+
+}
+.icon1{
+  float: left;
+  size: large;
+}
+
+.header{
+   position: fixed;
+width: 100vw;
+height: 50px;
+}
+.btn:hover{
+background-color: gray;
+}
+.form1{
+  flex: 0.5;
+  
+  }
+  /* .form-control1{
+    width: 50%;
+    border: none;
+    outline: none;
+    
+  } */
+  .img {
+    height: 30px; /* Adjust the height as needed */
+    margin-right: 10px;
 }
 
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
